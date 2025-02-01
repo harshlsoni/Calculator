@@ -1,51 +1,65 @@
-# Java Calculator
+# Java Math Operations Program
 
-## Description
-This is a simple Java-based calculator program that performs basic arithmetic operations on two numeric values. The program supports addition, subtraction, multiplication, and division.
+## Overview
+This Java program performs various mathematical operations, including:
+- Basic arithmetic operations (addition, subtraction, multiplication, division) on two numbers.
+- Statistical computations (mean, variance, and standard deviation) on an array of numbers.
+- Fibonacci sequence generation.
 
 ## Features
-- Performs addition, subtraction, multiplication, and division.
-- Takes two numeric inputs from the user.
-- Provides an easy-to-use command-line interface.
-- Displays the result of the selected operation.
+- **Arithmetic Operations:** Perform basic calculations on two user-input numbers.
+- **Statistical Computations:** Compute mean, variance, and standard deviation for an array.
+- **Fibonacci Sequence:** Generate the Fibonacci series up to a specified number of terms.
 
-## Requirements
-- Java Development Kit (JDK) 8 or later.
-- Any Java-compatible IDE or a command-line terminal.
+## Prerequisites
+- Java Development Kit (JDK) installed (Java 8 or later).
 
-## How to Run
-1. Ensure that Java is installed on your system.
-2. Compile the Java file:
+## Installation & Usage
+1. Clone this repository:
    ```sh
-   javac Calculator.java
+   git clone https://github.com/your-username/repository-name.git
    ```
-3. Run the program:
+2. Navigate to the project directory:
    ```sh
-   java Calculator
+   cd repository-name
    ```
-4. Follow the on-screen instructions to input numbers and select an operation.
+3. Compile the Java program:
+   ```sh
+   javac MathOperations.java
+   ```
+4. Run the program:
+   ```sh
+   java MathOperations
+   ```
 
-## Usage
-1. Enter the first number.
-2. Enter the second number.
-3. Choose an arithmetic operation (+, -, *, /).
-4. View the calculated result.
-
-## Example
+## Example Usage
 ```
-Enter first number: 10
-Enter second number: 5
-Choose operation (+, -, *, /): +
-Result: 15
+Enter two numbers: 5 3
+Addition: 8
+Subtraction: 2
+Multiplication: 15
+Division: 1.67
+
+Enter the size of the array: 5
+Enter numbers: 1 2 3 4 5
+Mean: 3.0
+Variance: 2.5
+Standard Deviation: 1.58
+
+Enter the number of terms for Fibonacci: 7
+Fibonacci Sequence: 0 1 1 2 3 5 8
 ```
 
 ## Future Enhancements
-- Support for more mathematical operations.
-- Graphical User Interface (GUI) support.
-- Error handling for invalid inputs.
+- Implement more mathematical functions (e.g., factorial, matrix operations).
+- Add a GUI for better user interaction.
+- Enhance input validation and error handling.
 
 ## License
-This project is open-source and available for modification and distribution.
+This project is licensed under the MIT License.
+
+## Contributing
+Feel free to contribute by creating issues or submitting pull requests.
 
 ## Author
 Harshal Soni
